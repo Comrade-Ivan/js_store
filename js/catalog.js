@@ -13,7 +13,7 @@ class ProductCard {
   render() {
     if (!this.elem) {
       this.elem = document.createElement("div");
-      this.elem.className = "col-4 mt-3";
+      this.elem.className = "col-12 col-sm-6 col-lg-4 mt-3";
       let catalog = document.querySelector(".catalog");
       catalog.append(this.elem);
     }

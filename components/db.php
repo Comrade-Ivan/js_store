@@ -1,9 +1,6 @@
 <?php
 
-$dbhost = "localhost";
-$dbuser = "root"; //root
-$dbpass = ""; //root
-$dbname = "fruits";
+require_once("dbconnection.php");
 $mysqli = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
 $mysqli->set_charset("utf-8");
 
